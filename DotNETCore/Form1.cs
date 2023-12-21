@@ -22,6 +22,13 @@ namespace DotNETCore
         {
             User user = new User();
             user.userName = "ahmetSelim";
+            user.password = "123321";
+            user.age = 27;
+            user.job = "engineer";
+            MessageBox.Show("Yeni kisi oluşturuldu. " + user.userName);
+
+            User user2 = new User();
+
         }
     }
 }
