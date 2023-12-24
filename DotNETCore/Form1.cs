@@ -21,14 +21,13 @@ namespace DotNETCore
         private void button1_Click(object sender, EventArgs e)
         {
             User user = new User();
-            user.userName = "ahmetSelim";
-            user.password = "123321";
+            user.userName = txtUserName.Text;
+            user.password = txtPassword.Text;
             user.age = 27;
             user.job = "engineer";
-            MessageBox.Show("Yeni kisi oluşturuldu. " + user.userName);
-
-            User user2 = new User();
+            user.Login(DateTime.Now.ToString());
 
         }
+
     }
 }
