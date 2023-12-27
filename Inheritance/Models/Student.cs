@@ -15,7 +15,7 @@ namespace Inheritance.Models
 
         public ClassRoom classRoom { get; set; }
         public string schoolNumber { get; set; }
-        public List<Teacher> teachers { get; set; }
+        public Teacher[] teachers { get; set; }
         public List<Lesson> lessons { get; set; }
         public void DoHomework()
         {

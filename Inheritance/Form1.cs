@@ -28,7 +28,7 @@ namespace Inheritance
 
             Student student = new Student("144", "Ahmet", "123");
             student.classRoom = classRoom;
-            student.teachers.Add(teacher);
+            student.teachers[0] = teacher;
         }
     }
 }
