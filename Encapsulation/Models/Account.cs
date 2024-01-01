@@ -20,7 +20,7 @@ namespace Encapsulation.Models
 
         public string userName
         {
-            get { return _userName; } //sürekli kendini dönememesi için farklı bir değişken atadık
+            get { return _userName; } //sürekli kendini dönmemesi için farklı bir değişken atadık
             set
             {
                 if (value.Length > 3)

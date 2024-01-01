@@ -24,11 +24,21 @@ namespace Inheritance
             classRoom.number = "1";
             classRoom.character = "A";
 
-            Teacher teacher = new Teacher("Selim", "435"); 
+            Teacher teacher = new Teacher("Selim", "435");
+            Teacher[] hocalar = new Teacher[1];
+            hocalar[0] = teacher;
+
+            Lesson lesson1 = new Lesson();
+            lesson1.credit = 12;
+            lesson1.name = "Matematik";
+            lesson1.hour = 6;
+            List<Lesson> dersler = new List<Lesson>();
+            dersler.Add(lesson1);
 
             Student student = new Student("144", "Ahmet", "123");
             student.classRoom = classRoom;
-            student.teachers[0] = teacher;
+            student.lessons = dersler;
+            student.teachers = hocalar;
         }
     }
 }

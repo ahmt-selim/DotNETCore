@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{A4463B64-BD75-4556-9059-BF5CF7E8BF6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polymorphism", "Polymorphism\Polymorphism.csproj", "{55859BC3-63B4-4A72-B722-5029E64F7B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClass", "AbstractClass\AbstractClass.csproj", "{8A951E10-9E1E-4062-B046-A85983C5F7C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A4463B64-BD75-4556-9059-BF5CF7E8BF6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4463B64-BD75-4556-9059-BF5CF7E8BF6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4463B64-BD75-4556-9059-BF5CF7E8BF6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55859BC3-63B4-4A72-B722-5029E64F7B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55859BC3-63B4-4A72-B722-5029E64F7B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55859BC3-63B4-4A72-B722-5029E64F7B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55859BC3-63B4-4A72-B722-5029E64F7B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A951E10-9E1E-4062-B046-A85983C5F7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A951E10-9E1E-4062-B046-A85983C5F7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A951E10-9E1E-4062-B046-A85983C5F7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A951E10-9E1E-4062-B046-A85983C5F7C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
